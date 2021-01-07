@@ -40,15 +40,6 @@ require_once(dirname(__FILE__) . DIRECTORY_SEPARATOR . 'device.php');
 
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a target="_blank" href="https://shumeipai.nxez.com">树莓派实验室</a></li>
-                    <li><a target="_blank" href="https://talk.quwj.com">趣小组</a></li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">About <span class="caret"></span></a>
-                        <ul class="dropdown-menu" role="menu">
-                            <li><a target="_blank" href="https://make.quwj.com/project/10">Pi Dashboard</a></li>
-                            <li><a target="_blank" href="https://github.com/spoonysonny/pi-dashboard">GitHub Source</a></li>
-                        </ul>
-                    </li>
                 </ul>
             </div>
         </div>
@@ -234,11 +225,6 @@ require_once(dirname(__FILE__) . DIRECTORY_SEPARATOR . 'device.php');
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <div id="footer">
-                    <hr style="margin: 20px 0 10px 0;" />
-                    <p class="pull-left" style="font-size: 12px;">Powered by <a target="_blank" href="https://make.quwj.com/project/10"><strong>Pi Dashboard</strong></a> v<?php echo($D['version']) ?>, <a target="_blank" href="https://www.nxez.com">NXEZ.com</a> all rights reserved.
-                    </p>
-                </div>
             </div>
         </div>
     </div>
